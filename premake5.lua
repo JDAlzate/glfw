@@ -49,6 +49,7 @@ project "GLFW"
         }
 
     filter "configurations:Debug"
+        staticruntime "On"
         runtime "Debug"
         symbols "on"
 
