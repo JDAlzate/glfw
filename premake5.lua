@@ -27,6 +27,7 @@ project "GLFW"
 
     filter "system:windows"
         systemversion "latest"
+        staticruntime "On"
 
         files
         {
@@ -49,7 +50,6 @@ project "GLFW"
         }
 
     filter "configurations:Debug"
-        staticruntime "On"
         runtime "Debug"
         symbols "on"
 
